@@ -21,3 +21,7 @@ Route::get('/riwayat', function () {
 Route::get('/b1', function () {
     return view('barang.b1');
 });
+
+Route::get('/coba', function () {
+    return view('coba');
+});
